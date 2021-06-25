@@ -13,4 +13,4 @@ You can simply write **npm install vanilla-tilt** to download it.
 
 Here is the [documentation](https://micku7zu.github.io/vanilla-tilt.js/) link to know more.
 
-Click on the link to see the page live: 
+Click on the link to see the page live: [SocialMediaIconHoverEffects](https://jenilgajjar20.github.io/SocialMediaIconHoverEffects/)
