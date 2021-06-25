@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Social Media Icon Hover Effects</title>
+</head>
+
+<body>
+    <section class="social__media">
+        <h3>Connect with me on:</h3>
+        <ul class="social__icons">
+            <li data-text="Linkedin" data-color="#0855c9">
+                <a href="https://www.linkedin.com/in/jenil-gajjar-27934920a/" target="_blank" class="linkedin"><i
+                        class="fab fa-linkedin-in"></i></a>
+            </li>
+            <li data-text="Github" data-color="#444343">
+                <a href="https://github.com/JenilGajjar20" target="_blank" class="github"><i
+                        class="fab fa-github"></i></a>
+            </li>
+            <li data-text="Instagram" data-color="#f04b74">
+                <a href="https://www.instagram.com/jenil20gajjar/" target="_blank" class="instagram"><i
+                        class="fab fa-instagram"></i></a>
+            </li>
+            <li data-text="Twitter" data-color="#0caada">
+                <a href="https://twitter.com/gajjar_jenil" target="_blank" class="twitter"><i
+                        class="fab fa-twitter"></i></a>
+            </li>
+        </ul>
+    </section>
+    <script src="js/app.js"></script>
+    <script src="js/vanilla-tilt.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll('.social__icons li a'), {
+            max: 25,
+            speed: 400,
+            glare: true,
+            "max-glare": 1
+        })
+    </script>
+</body>
+
+</html>
